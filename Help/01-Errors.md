@@ -3,6 +3,12 @@ layout: collection
 title: Errors
 ---
 
+##Error adding Outlet Excel File##
+
+<a href="/pictures/OutletError.png"><img src="/pictures/OutletError.png"></a>
+
+Try saving your Excel file as a .xls (1997-2003 format) file rather than .xlsx
+
 ##Distances shown in degrees##
 
 One of the major sources of errors when starting a new Arc Hydro project is to add first data having 
