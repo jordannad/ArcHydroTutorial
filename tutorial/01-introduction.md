@@ -1,21 +1,27 @@
 ---
 layout: collection
-title: New Year's Resolution
+title: Demo
 ---
 
-# My title! #
 
-An introduction.
+## Flow Direction ##
 
-## Important subsection ##
+An algorithm assigns a flow direction code to each cell, based on the steepest downhill slope as defined by the DEM. The flow direction is coded as a base two number and indicates the cell towards which the water flows.
 
-<a href="/pictures/koalifications.jpg"><img src="/pictures/koalifications.jpg"></a>
+<a href="/pictures/FlowDirection1.png"><img src="/pictures/FlowDirection1.png"></a>
 
-## Another important subsection ##
+Figure: 8 Direction Pour Point Grid
 
-{% if page.previous %}
-<p>Previous: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
-{% endif %}
-{% if page.next %}
-<p>Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
-{% endif %}
+###Calculating the Slope###
+
+Assuming we have a 10 meter DEM (corresponding to a 1/3 arc second grid), then each cell is a 10 m by 10 m square. To calculate the greatest slope direction, we simply use the Pythagorean theorem:
+
+<a href="/pictures/FlowDirection2.png"><img src="/pictures/FlowDirection2.png"></a>
+
+The arrows are represented by the base two numbers within the ArcHydro program.
+
+<a href="/pictures/FlowDirection3.png"><img src="/pictures/FlowDirection3.png"></a>
+
+
+
+
