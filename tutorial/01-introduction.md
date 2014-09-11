@@ -1,10 +1,9 @@
 ---
 layout: collection
-title: Demo
+title: Flow Direction
 ---
 
-
-## Flow Direction ##
+##Background##
 
 An algorithm assigns a flow direction code to each cell, based on the steepest downhill slope as defined by the DEM. The flow direction is coded as a base two number and indicates the cell towards which the water flows.
 
