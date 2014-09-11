@@ -12,6 +12,8 @@ github_username:  jekyll
 markdown: kramdown
 highlighter: rouge
 
+exclude: [".ruby-version", "README.md"]
+
 page_collections:
 - tutorial
 - reprojection
