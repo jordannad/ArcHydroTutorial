@@ -28,3 +28,8 @@ The arrows are represented by the base two numbers within the ArcHydro program.
 
 <a href="/pictures/FlowDirection3.png"><img src="/pictures/FlowDirection3.png"></a>
 
+
+##Steps##
+
+1. Go to Terrain Preprocessing &#8594; Flow Direction &#8594. Click OK
+

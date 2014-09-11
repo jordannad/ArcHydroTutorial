@@ -1,0 +1,27 @@
+---
+layout: collection
+title: Catchment Slope
+---
+
+The Slope tool calculates the maximum rate of change between each cell and its neighbors; for example, the steepest downhill descent for the cell (the maximum change in elevation over the distance between the cell and its eight neighbors). Every cell in the output raster has a slope value, where the lower the slope value, the flatter the terrain and the higher the slope value, the steeper the terrain. The output slope raster can be calculated as percent of slope or degree of slope. 
+
+The z-factor is the number of ground x,y units in one surface z unit. For example, if your x and y units are in meters and your z units are in feet, you would specify a z-factor of 0.3048, since there are 0.3048 meters in one foot. In our case, leave the Z factor as 1 (default value). Output cell size is the cell size of the DEM (Source: ArcGIS Help Manual). 
+
+1.Go to ArcToobox &#8594;Spatial Analyst Tools &#8594; Surface &#8594;	Slope. Set the Input surface to DEMClip. Choose an Output raster location. Keep the Output measurement in DEGREE. Click on Tool Help and read a bit more about how this tool works. Click OK.
+
+Note: Click the Search Window Button   next to the ArcToolbox Window Button if you ever have trouble finding the tool you are looking for. 
+
+2.Open the Layer Properties &#8594; Symbology Tab of the Slope layer. Set the number of class to the highest possible value (e.g., 32). Click OK. 
+
+3.Make sure the Spatial Analyst Toolbar is visible (right-click grey area at top of ArcMap and make sure there is a check mark next to Spatial Analyst).
+
+4.In the Spatial Analyst Toolbar, set Layer to the Slope Layer. Click the Histogram  icon . 
+
+5.Right click on the Dialog Box. Go to Export &#8594; Data Tab. Click Copy. 
+
+ 
+Figure 55: Export Slope Values.
+
+6.Open MS Excel. Click Paste. This was a work-around to the steps we did for the DEM above, because it is not possible to open the Slope layer attribute table. 
+
+7.Create a cumulative graph of watershed slope, similar to the one you made for the hypsometric curve. What percent of the watershed has a slope greater than 5%? 
