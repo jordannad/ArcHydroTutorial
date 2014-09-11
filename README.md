@@ -2,7 +2,17 @@
 
 This is a [jekyll](http://jekyllrb.com/)-based site.
 
-## Working on it
+## Setup
+
+Follow the instructions to install Jekyll on your machine found at: <http://jekyllrb.com/docs/installation/>.
+
+## Adding a new page to an existing collection.
+
+TODO
+
+## Creating a new collection
+
+TODO
 
 ### Adding pictures
 
