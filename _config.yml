@@ -15,5 +15,7 @@ highlighter: rouge
 exclude: [".ruby-version", "README.md"]
 
 page_collections:
-- tutorial
+- TerrainPreprocessing
 - reprojection
+- Help
+- watershedOutlet

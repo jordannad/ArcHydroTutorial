@@ -9,6 +9,8 @@ title: Reprojection in ArcGIS
 
 20)	From ArcGIS, right click on the DEM layer name and go to Properties &#8594; Source tab.  Scroll down to the Spatial Reference, and note what it is.  If you are using the 10m DEM, the Spatial Reference is GCS_North_American_1983.  Click OK. 
 
+<a href="/pictures/SS13.png"><img src="/pictures/SS13.png"></a>
+
 21)	Make sure ArcToolbox is visible.  Click on the Show/Hide ArcToolbox Window icon if necessary.  Navigate to Data Management Tools &#8594; Projections and Transformations &#8594; Raster.  Double click Project Raster. 
 
 22)	Click the down arrow in the Input raster box and select the DEM. 
