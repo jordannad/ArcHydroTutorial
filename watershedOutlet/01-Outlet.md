@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: Create Watershed Outlet Point
+title: Watershed Outlet Point
 ---
 
 It is important to know how to turn lat-long data collected with a GPS or from a map into a shapefile in GIS.  You will now create a point shapefile of the watershed outlet.  Use the appropriate watershed outlet for your catchment as given in the assignment.

@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: Common Problems
+title: Errors
 ---
 
 ##Distances shown in degrees##

@@ -14,3 +14,6 @@ If you run into additional problems check out the following:
 Note: You can directly download ArcHydro Tools version 2.0 from this website.
 
 4. Google is your friend. Copy/paste your error message into a search engine to see if others have run into the same problem before.
+
+
+If you would like a book on ArcHydro from Branner Library check out [Arc Hydro: GIS for Water Resources](http://searchworks.stanford.edu/view/4816454) or [Arc Hydro groundwater: GIS for Hydrogeology](http://searchworks.stanford.edu/view/9437521)
