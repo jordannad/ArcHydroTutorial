@@ -3,8 +3,6 @@ layout: collection
 title: New Year's Resolution
 ---
 
-# My title! #
-
 An introduction.
 
 ## Important subsection ##
@@ -13,9 +11,3 @@ An introduction.
 
 ## Another important subsection ##
 
-{% if page.previous %}
-<p>Previous: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
-{% endif %}
-{% if page.next %}
-<p>Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
-{% endif %}
