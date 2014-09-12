@@ -21,3 +21,6 @@ This function fills the sinks in a grid.  If cells with higher elevation surroun
 
 <a href="/pictures/FillSinks3.png"><img src="/pictures/FillSinks3.png"></a>
 
+The Fil raster generated from the original projected DEM is shown below. Note that the lowest elevation is now 0, compared to negative values (sinks) in the DEM.
+
+<a href="/pictures/FillSinks4.png"><img src="/pictures/FillSinks4.png"></a>

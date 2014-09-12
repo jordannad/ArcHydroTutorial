@@ -12,3 +12,15 @@ The streams that are 'defined' in this section are not necessarily meaningful or
 catchments. For this exercise, it is a good idea to compare your stream definition raster to your topographic map.
 
 <a href="/pictures/StreamDefinition.png"><img src="/pictures/StreamDefinition.png"></a>
+
+##Steps##
+
+1. Go to Terrain Preprocessing &#8594; Stream Definition &#8594. Accept the default Stream Threshold values and click OK.
+
+<a href="/pictures/StreamDefinition2.png"><img src="/pictures/StreamDefinition2.png"></a>
+
+Compare the NHD Flowlines shown in black with the streams defined from the DEM (in blue). 
+
+<a href="/pictures/StreamDefinition3.png"><img src="/pictures/StreamDefinition3.png"></a>
+
+

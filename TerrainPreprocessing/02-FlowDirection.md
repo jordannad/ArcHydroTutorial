@@ -33,3 +33,8 @@ The arrows are represented by the base two numbers within the ArcHydro program.
 
 1. Go to Terrain Preprocessing &#8594; Flow Direction &#8594. Click OK
 
+<a href="/pictures/FlowDirection4.png"><img src="/pictures/FlowDirection4.png"></a>
+
+The Flow Direction raster is shown below. Note that the legend has entries '1','2','4',...,'128' corresponding to each of the 8 directions.Each cell on the map is colored with its flow direction.
+
+<a href="/pictures/FlowDirection5.png"><img src="/pictures/FlowDirection5.png"></a>
