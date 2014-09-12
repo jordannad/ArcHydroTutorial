@@ -23,11 +23,11 @@ Note:  It is very important to realize that this layer already has a coordinate 
 
 24)	Click on the Select Output Coordinate System button 
 
-25)	Double click the “Projected Coordinate Systems” folder.  Double click the “Utm” folder.  Because you are using the 10m DEM, double click the “Nad 1983” folder.  If you were using the 90m SRTM DEM you would click on the “Wgs 1984” folder.
+25)	Double click the “Projected Coordinate Systems” folder.  Double click the “Utm” folder. 
 
 <a href="/pictures/SS16.png"><img src="/pictures/SS16.png"></a>
 
-26)	Double click on the projection you would like to project the DEM into, determined from the step above by looking at the US UTM map.  For example, if you were using a 10m NED DEM and your watershed was located in Nevada, you would select “NAD 1983 UTM Zone 11N.prj” in the Utm &#8594; Nad 1983 folder. 
+26)	Double click on the projection you would like to project the DEM into, determined from the step above by looking at the US UTM map.  For example, if you were using a 10m NED DEM and your watershed was located in Nevada, you would select “NAD 1983 UTM Zone 11N.prj” in the Utm &#8594; Nad 1983 folder. Click OK.
 
 27)	Click OK. 
 
