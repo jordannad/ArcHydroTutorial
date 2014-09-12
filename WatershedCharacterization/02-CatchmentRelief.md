@@ -3,6 +3,9 @@ layout: collection
 title: Catchment Relief
 ---
 
+Recall:
+$$Relief = \mbox{ Maximum elevation } - \mbox{Minimum elevation}$$
+
 1.	Make sure the Layers Data Frame is active. 
 
 2.	We are going to clip the DEM by the actual shape of the watershed. Make sure the ArcToolbox menu is visible. 

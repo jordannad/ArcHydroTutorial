@@ -3,6 +3,11 @@ layout: collection
 title: Main Channel Length and Slope
 ---
 
+Recall in your first assignment, you calculated the main channel slope using the formula:
+
+$$ S = \frac{Elevation_{85\%} - Elevation_{10\%}}{0.75*Length}$$
+
+
 While the DrainageLine is perhaps close to where the river actually starts, the standard hydrological definition of the main channel stretches to the edge of the watershed boundary. We need to figure out where the upstream meets the watershed boundary. 
 
 1.	Go to Terrain Preprocessing  Longest Flow Path for Catchments. 
