@@ -3,10 +3,7 @@ layout: collection
 title: Catchment Relief
 ---
 
-Recall:
-$$\mbox{Relief } = \mbox{ Maximum elevation } - \mbox{Minimum elevation}$$
-
-In order to calculate the relief in ArcGIS we need to restrict our DEM to the extent of our delineated watershed. We do this by clipping the layers. This will also be useful for the calculation of the Main Channel length.
+Recall that the catchment relief is the difference between the maximum and minimum elevations in the watershed. In order to calculate the relief in ArcGIS we need to restrict our DEM to the extent of our delineated watershed. We do this by clipping the layers. This will also be useful for the calculation of the Main Channel length.
 
 1)	Make sure the Layers Data Frame is active. 
 

@@ -38,3 +38,7 @@ This value can be very large (10,000 would even work). Where the agreestream pol
 If we run through the terrain preprocessing steps once again using the AGREEDEM for the base, we will observe the following watershed:
 
 <a href="/pictures/Reconditioned2.png"><img src="/pictures/Reconditioned2.png"></a>
+
+Compare this result to the watershed we got without reconditioning:
+
+<a href="/pictures/Reconditioned3.png"><img src="/pictures/Reconditioned3.png"></a>

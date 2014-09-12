@@ -3,12 +3,7 @@ layout: collection
 title: Main Channel Length and Slope
 ---
 
-Recall in your first assignment, you calculated the main channel slope using the formula:
-
-$$ S = \frac{Elevation_{85\%} - Elevation_{10\%}}{0.75*Length}$$
-
-
-While the DrainageLine is perhaps close to where the river actually starts, the standard hydrological definition of the main channel stretches to the edge of the watershed boundary. We need to figure out where the upstream meets the watershed boundary. 
+While the DrainageLine is perhaps close to where the river actually starts, the standard hydrological definition of the main channel stretches to the edge of the watershed boundary. We need to figure out where the upstream meets the watershed boundary. We can do this by using the longest flow path tool:
 
 1) Go to Terrain Preprocessing &#8594; Longest Flow Path for Catchments. 
 
@@ -27,3 +22,9 @@ Note: It is true that Longest Flow Path is not always the Main Channel. If this 
 <a href="/pictures/MainChannelSlope1.png"><img src="/pictures/MainChannelSlope1.png"></a>
 
 Note: The watershed outlet elevation should be the lowest DEMClip elevation value. However, the elevation of the top of the main channel may very well be less than the highest elevation in the watershed.
+
+Recall in your first assignment, you calculated the main channel slope using the formula:
+
+$$ S = \frac{Elevation_{85\%} - Elevation_{10\%}}{0.75*Length}$$
+
+You may want to compare the result you got from step 4 and your main channel slope from Exercise 1. Are they similar?
