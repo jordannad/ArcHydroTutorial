@@ -13,10 +13,17 @@ This function modifies a DEM by imposing linear features onto it (burning/fencin
 implementation of the AGREE method developed at the University of Texas at Austin in 1997. For a 
 full reference to the procedure [click here](http://www.ce.utexas.edu/prof/maidment/GISHYDRO/ferdi/research/agree/agree.html)
 
-##Inputs##
+##Steps##
+
+DEM Reconditioning is an optional step.  As a first run through, do NOT perform this step.  Delineate the watershed and complete all necessary steps of the exercise.  If you have time at the end of the assignment, try to delineate your watershed again and include this as a first step.  
+
+###Inputs###
 
 The function needs as input a raw DEM (or LevelDEM) and a linear feature class (e.g. river to burn in) 
 that both have to be present in the map document. There are three inputs which control the degree to which the stream network is burned into the DEM:
+
+<a href="/pictures/DEMReconditioning2.png"><img src="/pictures/DEMReconditioning2.png"></a>
+
 
 1. Stream buffer (cells) – this is the number of cells around the linear feature class for which the smoothing will occur. In general, thenarrower this is, the less it disrupts what the raw dem "tells you" about the surface. Values of $$\approx$$ 2 are common.
 
@@ -25,3 +32,9 @@ So, to see what smooth drop/raise you need. Start with zero and just go to the f
 
 3. Sharp drop/raise – this is the additional amount (in vertical units) that the river will be dropped (if the number is positive). This has the effect of additional burning/fencing on top of the smooth buffer interpolation. It needs to be performed to ensure preserving the linear features used for burning/fencing.
 This value can be very large (10,000 would even work). Where the agreestream polylines are, the burning process lowers those cells this depth.
+
+##Final Delineation with Reconditioning##
+
+If we run through the terrain preprocessing steps once again using the AGREEDEM for the base, we will observe the following watershed:
+
+<a href="/pictures/Reconditioned2.png"><img src="/pictures/Reconditioned2.png"></a>

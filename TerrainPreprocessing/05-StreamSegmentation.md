@@ -15,3 +15,7 @@ The most downstream cells of the stream segments are watershed outlets. Users ca
 1. Go to Terrain Preprocessing &#8594; Stream Segmentation &#8594. Click OK.
 
 <a href="/pictures/StreamSegment2.png"><img src="/pictures/StreamSegment2.png"></a>
+
+Right click on the Stream Segment raster (StrLnk is the default name) and open the attribute table. In this case, we have 219 stream segments. The column labeled 'Counts' refers to the number of grid cells associated with each segment or link.
+
+<a href="/pictures/StreamSegment3.png"><img src="/pictures/StreamSegment3.png"></a>

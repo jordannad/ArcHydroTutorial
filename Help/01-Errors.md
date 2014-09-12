@@ -35,6 +35,8 @@ This is a very common error when using ArcHydro, although the exact text and in 
 
 ##Incorrect Watershed following `Snap' in Drainage Point Processing##
 
+<a href="/pictures/ErrorSnap.png"><img src="/pictures/ErrorSnap.png"></a>
+
 There are two possible errors associated with using this new automated methodology to estimate the pour point: 
 
 - Snapping to the ``wrong” 10m DEM derived stream line (i.e., The lat/long for a test site is located next to several 10m DEM derived stream lines and it picks the closest one, which is not the “target” stream.)
