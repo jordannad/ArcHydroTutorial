@@ -23,4 +23,8 @@ Compare the NHD Flowlines shown in black with the streams defined from the DEM (
 
 <a href="/pictures/StreamDefinition3.png"><img src="/pictures/StreamDefinition3.png"></a>
 
+Now, using a modified input for the stream threshold:
 
+<a href="/pictures/StreamDefinition4.png"><img src="/pictures/StreamDefinition4.png"></a>
+
+<a href="/pictures/StreamDefinition5.png"><img src="/pictures/StreamDefinition5.png"></a>

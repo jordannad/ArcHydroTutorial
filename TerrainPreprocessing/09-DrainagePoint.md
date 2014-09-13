@@ -50,4 +50,6 @@ Now we are ready to delineate the total area flowing into our specified outlet o
 
 <a href="/pictures/Snap.png"><img src="/pictures/Snap.png"></a>
 
+<a href="/pictures/DrainagePoint3.png"><img src="/pictures/DrainagePoint4.png"></a>
+
 Note: If you had just clicked on the DrainageLine Layer itself with the Point Delineation Tool, you wouldn’t have had to deal with the snapping issue

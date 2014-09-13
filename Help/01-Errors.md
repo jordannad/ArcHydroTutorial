@@ -23,12 +23,12 @@ Point).
 
 This is a very common error when using ArcHydro, although the exact text and in which function it appears might differ slightly. There are many things that can be done to resolve this issue, though the precise cause is still unknown:
 
+- If this error arose during a Terrain Preprocessing step, check your input names. Try the step again after restarting ArcMap.
 - Make sure your Target Locations are correct: Under ApUtilities$>$Set Target Locations, make sure the HydroConfig and they GeoHMSConfig Targets make sense. The raster data should go to the project folder vector data to a geodatabase. The raster data will go to a folder in the project folder with the dataframe name and the vector data to a feature data set with the dataframe name. Through the ArcHydro Toolbar under there is a function to reset the target locations: ApUtilities$>$Additional Utilities$>$Reset Target Locations.
 - Put your mxd file in a folder with a simple name (preferably 8 characters or less) and no spaces or non-alpha numeric characters.
 - Do not enable the Background Processing option on the Geoprocessing Options editor. 
      - Go to Geoprocessing, Geoprocessing Options
      - Make sure the Enable checkbox is not checked under Background Processing.
-
 - Delete everything you can in your temp folder: You can do this without exiting ArcMap through the ArcHydro Toolbar under ApUtilities>Additional Utilities>Clean User's Temp Folder.
 
 

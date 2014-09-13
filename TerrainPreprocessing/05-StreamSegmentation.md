@@ -19,3 +19,5 @@ The most downstream cells of the stream segments are watershed outlets. Users ca
 Right click on the Stream Segment raster (StrLnk is the default name) and open the attribute table. In this case, we have 219 stream segments. The column labeled 'Counts' refers to the number of grid cells associated with each segment or link.
 
 <a href="/pictures/StreamSegment3.png"><img src="/pictures/StreamSegment3.png"></a>
+
+
