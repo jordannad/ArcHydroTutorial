@@ -13,6 +13,8 @@ If you run into additional problems check out the following:
 3. [Branner Library GIS Workshop page](https://sites.google.com/site/advancedgistanford/courses/giswatersheddelineation)
 Note: Previous presentations by Patricia Carbajales for CEE 166A/266A Watershed Delineation are hosted here!
 
+    <iframe width="560" height="315" src="//www.youtube.com/embed/1dDtidn1l10" frameborder="0" allowfullscreen style="margin-left:auto;margin-right:auto;margin-bottom:20px"></iframe>
+
 4. Google is your friend. Copy/paste your error message into a search engine to see if others have run into the same problem before.
 
 
