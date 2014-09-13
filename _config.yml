@@ -15,7 +15,12 @@ highlighter: rouge
 exclude: [".ruby-version", "README.md"]
 
 page_collections:
-- TerrainPreprocessing
+- GettingStarted
 - reprojection
-- Help
 - watershedOutlet
+- AddRivers
+- TerrainPreprocessing
+- WatershedCharacterization
+- CreateMaps
+- Help
+
