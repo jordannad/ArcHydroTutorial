@@ -1,8 +1,8 @@
 # Site settings
-title: Arc Hydro Tutorial
-email: your-email@domain.com
+title: ArcGIS and ArcHydro Tutorial
+email: jdeane@stanford.edu
 description: > # this means to ignore newlines until "baseurl:"
-  ARC GIS tutorial for CEE 166A/266A 
+  Tutorial for CEE 166A/266A 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
