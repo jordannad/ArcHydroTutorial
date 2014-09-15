@@ -25,16 +25,16 @@ module Jekyll
       context.registers[:site].config["page_collections"].each { |coll_cfg|
         raise "No documents found for collection #{coll_cfg["path"]}" unless collections.has_key?(coll_cfg["path"])
         coll = collections[coll_cfg["path"]]
-        if coll.size == 1 or (on_a_collection_page and context.registers[:page]["dir"][1..-1] != coll_cfg["path"])
+        if on_a_collection_page and context.registers[:page]["dir"][1..-1] != coll_cfg["path"]
           output += "<li><strong><a href='#{coll[0].url}'>#{coll_cfg["title"]}</a></strong></li>"
         else
-          output += "<li><strong>#{coll_cfg["title"]}</strong><ol>"
+          output += "<li><span class='toc-heading'>#{coll_cfg["title"]}</span><ol>"
           coll.each { |page|
             if page.data.has_key?("title")
               if context.registers[:page]["path"] == page.path
                 output += "<li><strong>#{page.data["title"]}</strong></li>"
               else
-                output += "<li><a href='#{page.url}'>#{page.data["title"]}</a></li>"
+                output += "<li><a href='#{page.url}'><span class='toc-page'>#{page.data["title"]}</span></a></li>"
               end
             end
           }
