@@ -170,14 +170,14 @@
 }
 
 .post {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    width: -webkit-calc(800px - (#{$spacing-unit} * 2));
+    width:         calc(800px - (#{$spacing-unit} * 2));
     float: right;
 }
 
 .toc {
-    max-width: -webkit-calc(200px - (#{$spacing-unit} * 2));
-    max-width:         calc(200px - (#{$spacing-unit} * 2));
+    width: -webkit-calc(200px - (#{$spacing-unit} * 2));
+    width:         calc(200px - (#{$spacing-unit} * 2));
     float: left;
 
     ol {
