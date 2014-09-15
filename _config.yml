@@ -14,13 +14,22 @@ highlighter: rouge
 
 exclude: [".ruby-version", "README.md"]
 
+## The page collections will be listed in the following sorted order.
 page_collections:
-- GettingStarted
-- reprojection
-- watershedOutlet
-- AddRivers
-- TerrainPreprocessing
-- WatershedCharacterization
-- CreateMaps
-- Help
+- path: GettingStarted
+  title: Getting Started
+- path: reprojection
+  title: Reprojection
+- path: watershedOutlet
+  title: Watershed Outlets
+- path: AddRivers
+  title: Add Rivers
+- path: TerrainPreprocessing
+  title: Terrain Preprocessing
+- path: WatershedCharacterization
+  title: Watershed Characterization
+- path: CreateMaps
+  title: Create Maps
+- path: Help
+  title: Help!
 
