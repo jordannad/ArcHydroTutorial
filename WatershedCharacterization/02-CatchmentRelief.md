@@ -29,7 +29,7 @@ Recall that the catchment relief is the difference between the maximum and minim
 
 6)	Click OK in Environments and OK in the Clip Window.
 
-7)	The difference between the high and low values in the Table of Contents of the resulting raster layer indicates the catchment relief in meters. To find the average catchment elevation, you can use Data Management Tools  Raster  Raster Properties  Get Raster Properties. Select the name of the input raster layer, and chose “Mean” as the Property type.
+7)	The difference between the high and low values in the Table of Contents of the resulting raster layer indicates the catchment relief in meters. To find the average catchment elevation, you can use Data Management Tools &#8594; Raster &#8594; Raster Properties &#8594; Get Raster Properties. Select the name of the input raster layer, and chose “Mean” as the Property type.
  
 <a href="/pictures/Relief2.png"><img src="/pictures/Relief2.png"></a>
 

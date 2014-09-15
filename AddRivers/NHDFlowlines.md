@@ -13,13 +13,9 @@ In this section, you will add the NHD rivers.  Also, you will learn how to selec
 
 <a href="/pictures/SS23A.png"><img src="/pictures/SS23A.png"></a>
 
-
 41)	Change the symbology of Outlet.shp by double-clicking on the actual point icon.  You can change the shape, size, and/ or color.  Click OK.
 
-<a href="/pictures/SS23.png"><img src="/pictures/SS23.png"></a>
-
- 
-Figure 23. Symbol Selector.
+  <a href="/pictures/SS23.png"><img src="/pictures/SS23.png"></a>
 
 42)	Go to File &#8594; Save as.  Save the file with an appropriate name.  Note that an ArcMap file has the file extension “.mxd.” 
 
@@ -39,31 +35,21 @@ Note:  When you add layers to ArcMap and click save, the layers are not actually
 
 <a href="/pictures/SS25.png"><img src="/pictures/SS25.png"></a>
 
-Figure 25. Selection Drop-Down Menu.
-
 48)	Click the Select Features icon  <a href="/pictures/SelectFeaturesIcon.png"><img src="/pictures/SelectFeaturesIcon.png"></a> .  Select all the parts, or reaches, of the NHD river in the watershed you are trying to delineate. You can select multiple sections by holding the Shift key.  You can also draw a box around the reaches are you trying to select.  To unselect a reach, simply click it again, or go to Selection drop-down menu &#8594; Clear Selected Features.  For completeness, make sure you have selected at least all reaches in the watershed, and also at least one extra reach downstream from Outlet.shp.  You may have to Zoom in to make sure you have selected everything. 
 
 <a href="/pictures/SS26.png"><img src="/pictures/SS26.png"></a>
-
-Figure 27. Select Features.
 
 49)	Once all the relevant NHDFlowline features are selected, right click on the NHDFlowline layer.  Go to Data &#8594; Export Data. 
 
 <a href="/pictures/SS27.png"><img src="/pictures/SS27.png"></a>
 
-Figure 28. Data – Export Data.
-
 50)	In the Export Data box, select “Use the same coordinate system as: the data frame,” and choose only to export selected features.  Choose an appropriate folder and shapefile name.  While it is not critical for the NHD to be in the same coordinate system as the DEM, it is good practice.  Click OK. 
 
 <a href="/pictures/SS28.png"><img src="/pictures/SS28.png"></a>
 
-Figure 29. Export Data.
-
 51)	Click Yes when prompted to add the exported data to the map as a layer.  Note that this new NHD layer appears lying on top of the original NHDFlowline layer in a different color.
 
 <a href="/pictures/SS29.png"><img src="/pictures/SS29.png"></a>
-
-Figure 30. Add exported data to the map as a layer.
 
 52)	Right click the original NHDFlowline layer name.  Go to Open Attribute Table.  These are all the data associated with this layer.  Each row, or attribute, in the table represents one segment of a stream.  You can actually select individual attributes by clicking the far left gray part of the row (similar to Excel).  You can multi-select by holding Shift or Ctrl. 
 
@@ -73,20 +59,14 @@ Note:  Attribute data are stored in the .dbf file of the shapefile, which can be
 
 <a href="/pictures/SS30.png"><img src="/pictures/SS30.png"></a>
 
-Figure 31. Open Attribute Table.
-
 54)	Right click the NHDFlowline layer name.  Go to Properties &#8594; Labels.  Check the upper left box for “Label features in this layer.”  Make sure the Text String Label Field is selected to the field that contains the river names. 
 
 <a href="/pictures/SS31.png"><img src="/pictures/SS31.png"></a>
-
-Figure 32. Labels.
 
 55)	Click the Placement Properties button.  Make sure the Remove Duplicate Labels radio button is selected.  Click OK.  Click OK.  Close the attribute table. 
 
 <a href="/pictures/SS32.png"><img src="/pictures/SS32.png"></a>
  
-Figure 33. Label Placement Properties.
-
 56)	Go to Selection drop-down menu &#8594; Clear Selected Features.
 
 <a href="/pictures/SS33.png"><img src="/pictures/SS33.png"></a>
@@ -96,5 +76,3 @@ Figure 33. Label Placement Properties.
 Note:  The Remove layer function does not actually delete the layer; it simply removes it from being associated with this ArcMap.
 
 <a href="/pictures/SS34.png"><img src="/pictures/SS34.png"></a>
-
-Figure 34. Remove layer

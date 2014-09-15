@@ -3,12 +3,12 @@ layout: collection
 title: Hypsometric Curve
 ---
 
-A hypsometric curve is a cumulative distribution function of watershed elevations. Review the Watershed Characterization Notes from Week 1 for a refresher (link).
+A hypsometric curve is a cumulative distribution function of watershed elevations. Review the [Watershed Characterization Notes](/Downloads/WatershedCharacNotes.pdf) from Week 1 for a refresher.
 
 <a href="/pictures/HypsometricCurve.png"><img src="/pictures/HypsometricCurve.png"></a>
 
 
-1.	If the attribute table of the clipped DEM is greyed out, we must first need to build the DEMClp attribute table. 
+1)	If the attribute table of the clipped DEM is greyed out, we must first need to build the DEMClip attribute table. 
 
 a. Navigate to ArcToolbox &#8594; Data Management Tools &#8594; Raster &#8594; Raster Dataset &#8594; Copy Raster. 
 
@@ -24,15 +24,15 @@ d. Input the 32-bit signed integer output raster from part (a). This output rast
 <a href="/pictures/HypsometricCurve3.png"><img src="/pictures/HypsometricCurve3.png"></a>
 
 
-2.	Export the table. Open the .dbf file in Excel (change file type to dBASE). The VALUE column indicates the elevation value. The COUNT column indicates the number of cells with that elevation value.
+2)	Export the table. Open the .dbf file in Excel (change file type to dBASE). The VALUE column indicates the elevation value. The COUNT column indicates the number of cells with that elevation value.
 
 <a href="/pictures/HypsometricCurve4.png"><img src="/pictures/HypsometricCurve4.png"></a>
 
-3.	Sum up the COUNT column. This is the total number of pixels in the watershed.
+3)	Sum up the COUNT column. This is the total number of pixels in the watershed.
 
-4.	In Column C, cumulatively sum the COUNT column. In Column D, divide each cumulative value by the sum of the COUNT column. This indicates the percentage of the watershed that is at or below the elevation value.
+4)	In Column C, cumulatively sum the COUNT column. In Column D, divide each cumulative value by the sum of the COUNT column. This indicates the percentage of the watershed that is at or below the elevation value.
 
-5.	Plot Column D vs. Column A. This is the Hypsometric Curve.  
+5)	Plot Column D vs. Column A. This is the Hypsometric Curve.  
 
 <a href="/pictures/HypsometricCurve5.png"><img src="/pictures/HypsometricCurve5.png"></a>
 
