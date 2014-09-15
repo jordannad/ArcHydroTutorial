@@ -3,13 +3,13 @@ layout: collection
 title: Errors
 ---
 
-##Error adding Outlet Excel File##
+###Error adding Outlet Excel File###
 
 <a href="/pictures/OutletError.png"><img src="/pictures/OutletError.png"></a>
 
 Try saving your Excel file as a .xls (1997-2003 format) file rather than .xlsx
 
-##Distances shown in degrees##
+###Distances shown in degrees###
 
 One of the major sources of errors when starting a new Arc Hydro project is to add first data having 
 inappropriate spatial reference. The first layer added to the map sets the spatial reference for the map 
@@ -17,7 +17,7 @@ dataframe. It will be used by Arc Hydro to set the projection of the output targ
 already exist and if the there is no input data passing a spatial reference (e.g. when creating Batch 
 Point). 
 
-##System Runtime Interop Error##
+###System Runtime Interop Error###
 
 <a href="/pictures/Error1.png"><img src="/pictures/Error1.png"></a>
 
@@ -31,9 +31,7 @@ This is a very common error when using ArcHydro, although the exact text and in 
      - Make sure the Enable checkbox is not checked under Background Processing.
 - Delete everything you can in your temp folder: You can do this without exiting ArcMap through the ArcHydro Toolbar under ApUtilities>Additional Utilities>Clean User's Temp Folder.
 
-
-
-##Incorrect Watershed following `Snap' in Drainage Point Processing##
+###Incorrect Watershed following `Snap' in Drainage Point Processing###
 
 <a href="/pictures/ErrorSnap.png"><img src="/pictures/ErrorSnap.png"></a>
 
@@ -48,3 +46,6 @@ error associated with the second issue is much easier to determine; the watershe
 small and strangely shaped
 
 
+###Found Another?###
+
+If you run into another bug, email me at <a href="mailto:{{ site.email }}">{{ site.email }}</a>. Include screenshots please! 
