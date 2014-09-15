@@ -21,7 +21,7 @@ module Jekyll
       on_a_collection_page = collections.has_key?(context.registers[:page]["dir"][1..-1])
 
       collections.each_value { |value| value.sort! { |a, b| a.path <=> b.path } }
-      output = "<ol>"
+      output = "<ol class='toclist'>"
       context.registers[:site].config["page_collections"].each { |coll_cfg|
         raise "No documents found for collection #{coll_cfg["path"]}" unless collections.has_key?(coll_cfg["path"])
         coll = collections[coll_cfg["path"]]
