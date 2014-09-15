@@ -179,6 +179,10 @@
     max-width: -webkit-calc(200px - (#{$spacing-unit} * 2));
     max-width:         calc(200px - (#{$spacing-unit} * 2));
     float: left;
+
+    ol {
+        list-style: none;
+    }
 }
 
 .post-list {
