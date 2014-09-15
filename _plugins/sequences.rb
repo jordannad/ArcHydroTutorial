@@ -47,6 +47,52 @@ module Jekyll
 
     end # def render
   end # class TableOfContentsTag
+
+  class NextTag < Liquid::Tag
+    def initialize(tag_name, text, tokens)
+      super
+      @text = text
+      @tokens = tokens
+    end # def initialize
+
+    def render(context)
+      collections = Hash.new()
+      context.registers[:site].pages.each { |page|
+        if page.dir.length > 1
+          if collections.has_key?(page.dir[1..-1])
+            collections[page.dir[1..-1]] = collections[page.dir[1..-1]] << page
+          else
+            collections[page.dir[1..-1]] = [page]
+          end
+        end
+      }
+
+      curr_page = context.registers[:page]
+      on_a_collection_page = collections.has_key?(curr_page["dir"][1..-1])
+      raise "Must be used on a collection page" unless on_a_collection_page
+      curr_section = collections[curr_page["dir"][1..-1]]
+      curr_idx = curr_section.find_index{|page| curr_page["path"] == page.path}
+      if curr_idx != nil and curr_idx + 1 < curr_section.size
+        next_page = curr_section[curr_idx + 1]
+      else
+        curr_section_idx = context.registers[:site].config["page_collections"].find_index {|coll| coll["path"] == curr_page["dir"][1..-1]}
+        if curr_section_idx != nil and curr_section_idx + 1 < context.registers[:site].config["page_collections"].size
+          next_page_section_name = context.registers[:site].config["page_collections"][curr_section_idx + 1]
+          next_page_section = collections[next_page_section_name["path"]]
+          next_page = next_page_section[0]
+        else
+          next_page = nil
+        end
+      end
+      if next_page != nil
+        "<a href='#{next_page.url}'><span class='next-link'>Next: #{next_page.data["title"]}</span></a>"
+      else
+        ""
+      end
+    end # def render
+  end # class NextTag
 end # module Jekyll
+
 Liquid::Template.register_tag('table_of_contents', Jekyll::TableOfContentsTag)
+Liquid::Template.register_tag('next_tag', Jekyll::NextTag)
 
