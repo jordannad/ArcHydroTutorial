@@ -5,7 +5,7 @@ title: Running ArcGIS
 
 ##Installation and Access##
 
-GIS is available on many computers throughout campus; however, you may prefer to use the ones in either Y2E2 184 or Branner Library, because these will also have the required ArcHydro extension.  
+GIS is available on many computers throughout campus; however, you may prefer to use the ones in either Y2E2 184 or Branner Library, because these will also have the required ArcHydro extension. If you use the Y2E2 computers, your files will be saved directly to your [AFS space](https://itservices.stanford.edu/service/afs/intro). 
 
 You are also free to use your own computer if you install the 1-year ArcEditor license. This [license](https://lib.stanford.edu/stanford-geospatial-center/arcgis-102-software-download) is available for Stanford computers . If you are running ArcGIS on your personal laptop, make sure that you have several GB of space available and preferably 8GB (or more) of RAM.
 
