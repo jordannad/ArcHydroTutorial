@@ -7,7 +7,7 @@ title: Downloads
 
 [McKinley Mountain Files]({{ site.url }}/Downloads/McKinley.zip)
 
-Mindego Hill Files
+[Hatchett Mountain Pass Files]({{ site.url }}/Downloads/Hatchett.zip)
 
 [Tutorial Starter Documents]({{ site.url }}/Downloads/BigBasin.zip) (Big Basin USGS Topo)
 
