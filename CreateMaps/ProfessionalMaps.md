@@ -5,9 +5,9 @@ title: Creating Professional Looking Maps
 
 It is now time to learn the basics of making professional-looking maps, which can be included in reports and presentations. It is good cartographic practice to include a title, legend, north arrow, and scale bar on all maps. 
 
-1) Click the Layout View icon in the bottom left corner <a href="/pictures/LayoutView.png"><img src="/pictures/LayoutView.png"></a> .
+1) Click the Layout View icon in the bottom left corner <a href="{{ site.url }}/pictures/LayoutView.png"><img src="{{ site.url }}/pictures/LayoutView.png"></a> .
 
-Note: The Layout Zoom <a href="/pictures/LayoutZoom.png"><img src="/pictures/LayoutZoom.png"></a>  is different than the regular Zoom <a href="/pictures/ZoomIn.png"><img src="/pictures/ZoomIn.png"></a> .
+Note: The Layout Zoom <a href="{{ site.url }}/pictures/LayoutZoom.png"><img src="{{ site.url }}/pictures/LayoutZoom.png"></a>  is different than the regular Zoom <a href="{{ site.url }}/pictures/ZoomIn.png"><img src="{{ site.url }}/pictures/ZoomIn.png"></a> .
 
 2) Change the page setup to the appropriate paper size by going to File &#8594; Page and Print Setup. Click OK.
 
@@ -36,4 +36,4 @@ and white rather than rely on the printer to convert your color choices to grey 
 
 12.Go to File &#8594; Export Map. Choose a Save as type (e.g., BMP, JPEG, PDF). Click Save.
 
-<a href="/pictures/BigBasinMap.png"><img src="/pictures/BigBasinMap.png"></a>
+<a href="{{ site.url }}/pictures/BigBasinMap.png"><img src="{{ site.url }}/pictures/BigBasinMap.png"></a>

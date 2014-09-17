@@ -7,7 +7,7 @@ title: Flow Direction
 
 An algorithm assigns a flow direction code to each cell, based on the steepest downhill slope as defined by the DEM. The flow direction is coded as a base two number and indicates the cell towards which the water flows.
 
-{% image presetName 70% /pictures/FlowDirection1.png "Figure: 8 Direction Pour Point Grid" bottom %}
+<a href="{{ site.url }}/pictures/FlowDirection1.png"><img src="{{ site.url }}/pictures/FlowDirection1.png"></a>
 
 ##Calculating the Slope##
 

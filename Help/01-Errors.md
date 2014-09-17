@@ -5,7 +5,7 @@ title: Errors
 
 ###Error adding Outlet Excel File###
 
-<a href="/pictures/OutletError.png"><img src="/pictures/OutletError.png"></a>
+<a href="{{ site.url }}/pictures/OutletError.png"><img src="{{ site.url }}/pictures/OutletError.png"></a>
 
 Try saving your Excel file as a .xls (1997-2003 format) file rather than .xlsx
 
@@ -15,7 +15,7 @@ You may run into this problem when determining the watershed area. One of the ma
 
 ###System Runtime Interop Error###
 
-<a href="/pictures/Error1.png"><img src="/pictures/Error1.png"></a>
+<a href="{{ site.url }}/pictures/Error1.png"><img src="{{ site.url }}/pictures/Error1.png"></a>
 
 This is a very common error when using ArcHydro, although the exact text and in which function it appears might differ slightly. There are many things that can be done to resolve this issue, though the precise cause is still unknown:
 
@@ -29,7 +29,7 @@ This is a very common error when using ArcHydro, although the exact text and in 
 
 ###Incorrect Watershed following `Snap' in Drainage Point Processing###
 
-<a href="/pictures/ErrorSnap.png"><img src="/pictures/ErrorSnap.png"></a>
+<a href="{{ site.url }}/pictures/ErrorSnap.png"><img src="{{ site.url }}/pictures/ErrorSnap.png"></a>
 
 There are two possible errors associated with using this new automated methodology to estimate the pour point: 
 

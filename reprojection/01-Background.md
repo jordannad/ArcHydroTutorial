@@ -7,7 +7,7 @@ title: Data Reprojection
 
 The downloaded GIS data come with associated geographic coordinate systems of latitude and longitude, giving exact positions on the earth’s surface.  However, because the parallels of latitude become smaller and smaller in length as you move away from the equator, longitude distances are not preserved (one degree of longitude at the equator is not the same length as one degree of longitude at 60°N latitude).  Thus, we must re-project our data into a projected coordinate system, in order to be able to make measurements in meters as opposed to degrees. 
 
-<a href="/pictures/Reprojection1.png"><img src="/pictures/Reprojection1.png"></a>
+<a href="{{ site.url }}/pictures/Reprojection1.png"><img src="{{ site.url }}/pictures/Reprojection1.png"></a>
 
 Note: Map projection analogous to trying to take the curved surface of the earth and flatten it onto a two-dimensional piece of paper. There are many choices of map projections and each distorts distance, area and possibly shape.
 
