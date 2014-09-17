@@ -19,6 +19,7 @@ module Jekyll
       }
 
       on_a_collection_page = collections.has_key?(context.registers[:page]["dir"][1..-1])
+      base_path = context.registers[:site].config["baseurl"]
 
       collections.each_value { |value| value.sort! { |a, b| a.path <=> b.path } }
       output = "<ol class='toclist'>"
@@ -26,7 +27,7 @@ module Jekyll
         raise "No documents found for collection #{coll_cfg["path"]}" unless collections.has_key?(coll_cfg["path"])
         coll = collections[coll_cfg["path"]]
         if on_a_collection_page and context.registers[:page]["dir"][1..-1] != coll_cfg["path"]
-          output += "<li><strong><a href='#{coll[0].url}'>#{coll_cfg["title"]}</a></strong></li>"
+          output += "<li><strong><a href='#{base_path}#{coll[0].url}'>#{coll_cfg["title"]}</a></strong></li>"
         else
           output += "<li><span class='toc-heading'>#{coll_cfg["title"]}</span><ol>"
           coll.each { |page|
@@ -34,7 +35,7 @@ module Jekyll
               if context.registers[:page]["path"] == page.path
                 output += "<li><strong>#{page.data["title"]}</strong></li>"
               else
-                output += "<li><a href='#{page.url}'><span class='toc-page'>#{page.data["title"]}</span></a></li>"
+                output += "<li><a href='#{base_path}#{page.url}'><span class='toc-page'>#{page.data["title"]}</span></a></li>"
               end
             end
           }
