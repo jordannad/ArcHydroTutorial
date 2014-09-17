@@ -11,8 +11,8 @@ The Drainage Line Processing Tool converts the Stream Link grid into a vector fo
 
 1. Go to Terrain Preprocessing &#8594; Drainage Line Processing &#8594; Click OK
 
-<a href="/pictures/DrainageLine1.png"><img src="/pictures/DrainageLine1.png"></a>
+<a href="{{ site.url }}/pictures/DrainageLine1.png"><img src="{{ site.url }}/pictures/DrainageLine1.png"></a>
 
-Now we can select each stream segment using the <a href="/pictures/SelectFeaturesIcon.png"><img src="/pictures/SelectFeaturesIcon.png"></a>  icon as the links are in vector format rather than raster.
+Now we can select each stream segment using the <a href="{{ site.url }}/pictures/SelectFeaturesIcon.png"><img src="{{ site.url }}/pictures/SelectFeaturesIcon.png"></a>  icon as the links are in vector format rather than raster.
 
-<a href="/pictures/DrainageLine2.png"><img src="/pictures/DrainageLine2.png"></a>
+<a href="{{ site.url }}/pictures/DrainageLine2.png"><img src="{{ site.url }}/pictures/DrainageLine2.png"></a>

@@ -9,18 +9,18 @@ Sinks are cells in the DEM for which all surrounding cells have higher values, w
 
 This function fills the sinks in a grid.  If cells with higher elevation surround a cell, the water is trapped in that cell and cannot flow. A flow direction cannot be defined for sinks so the Fill Sinks function modifies the elevation value to eliminate these problems.
 
-<a href="/pictures/FillSinks.png"><img src="/pictures/FillSinks.png"></a>
+<a href="{{ site.url }}/pictures/FillSinks.png"><img src="{{ site.url }}/pictures/FillSinks.png"></a>
 
 ## Steps##
 
 1.	Go to Terrain Preprocessing &#8594; DEM Manipulation &#8594; Fill Sinks.
 
-<a href="/pictures/FillSinks2.png"><img src="/pictures/FillSinks2.png"></a>
+<a href="{{ site.url }}/pictures/FillSinks2.png"><img src="{{ site.url }}/pictures/FillSinks2.png"></a>
 
 2. Select the Fill All radio button.  Click OK. 
 
-<a href="/pictures/FillSinks3.png"><img src="/pictures/FillSinks3.png"></a>
+<a href="{{ site.url }}/pictures/FillSinks3.png"><img src="{{ site.url }}/pictures/FillSinks3.png"></a>
 
 The Fil raster generated from the original projected DEM is shown below. Note that the lowest elevation is now 0, compared to negative values (sinks) in the DEM.
 
-<a href="/pictures/FillSinks4.png"><img src="/pictures/FillSinks4.png"></a>
+<a href="{{ site.url }}/pictures/FillSinks4.png"><img src="{{ site.url }}/pictures/FillSinks4.png"></a>

@@ -9,17 +9,17 @@ While the DrainageLine is perhaps close to where the river actually starts, the 
 
 2) Set Catchment to your watershed polygon and Flow Direction Grid to FdrClip. Click OK.
 
-<a href="/pictures/MainChannelLength1.png"><img src="/pictures/MainChannelLength1.png"></a>
+<a href="{{ site.url }}/pictures/MainChannelLength1.png"><img src="{{ site.url }}/pictures/MainChannelLength1.png"></a>
 
 3) Open the attribute table of the new line polygon to determine the main channel length.
 
-<a href="/pictures/MainChannelLength2.png"><img src="/pictures/MainChannelLength2.png"></a>
+<a href="{{ site.url }}/pictures/MainChannelLength2.png"><img src="{{ site.url }}/pictures/MainChannelLength2.png"></a>
 
 Note: It is true that Longest Flow Path is not always the Main Channel. If this is the case you can use the measure tool to help you determine the main channel length. Alternatively, open the Stream Definition Tool and decrease the Stream Threshold. This will create many more streams that get closer to the watershed boundary.
 
 4.	Click the Identify Tool <a href="/pictures/IdentifyTool.png"><img src="/pictures/IdentifyTool.png"></a>. Set “Identify from:” to DEMClip. Click on the very bottom and very top of the Longest Flow Path Line to determine their elevations. The main channel slope is the change in elevation divided by the main channel length. Would you consider this consider this watershed to have a steep or shallow main channel slope?
 
-<a href="/pictures/MainChannelSlope1.png"><img src="/pictures/MainChannelSlope1.png"></a>
+<a href="{{ site.url }}/pictures/MainChannelSlope1.png"><img src="{{ site.url }}/pictures/MainChannelSlope1.png"></a>
 
 Note: The watershed outlet elevation should be the lowest DEMClip elevation value. However, the elevation of the top of the main channel may very well be less than the highest elevation in the watershed.
 

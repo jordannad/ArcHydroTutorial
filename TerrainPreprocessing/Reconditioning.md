@@ -7,7 +7,7 @@ title: DEM Reconditioning
 
 The stream network developed through the sequence of steps in the terrain processing menu will only ever be "as good as" the underlying DEM and often it may not match the NHD stream flowlines. Topography is not the only factor that controls stream location. Steams can meander and cut into higher ground. This is particularly the can where the ground is made of alluvial sediments that are easily remobilised. DEM reconditioning is only suggested when the vector stream information is more reliable than the raster DEM information. In addition, this *step can only be performed if there are no gaps in the NHD data*.
 
-<a href="/pictures/DEMReconditioning.png"><img src="/pictures/DEMReconditioning.png"></a>
+<a href="{{ site.url }}/pictures/DEMReconditioning.png"><img src="{{ site.url }}/pictures/DEMReconditioning.png"></a>
 
 This function modifies a DEM by imposing linear features onto it (burning/fencing). It is an 
 implementation of the AGREE method developed at the University of Texas at Austin in 1997. For a 
@@ -22,7 +22,7 @@ DEM Reconditioning is an optional step.  As a first run through, do NOT perform 
 The function needs as input a raw DEM (or LevelDEM) and a linear feature class (e.g. river to burn in) 
 that both have to be present in the map document. There are three inputs which control the degree to which the stream network is burned into the DEM:
 
-<a href="/pictures/DEMReconditioning2.png"><img src="/pictures/DEMReconditioning2.png"></a>
+<a href="{{ site.url }}/pictures/DEMReconditioning2.png"><img src="{{ site.url }}/pictures/DEMReconditioning2.png"></a>
 
 
 1. Stream buffer (cells) – this is the number of cells around the linear feature class for which the smoothing will occur. In general, thenarrower this is, the less it disrupts what the raw dem "tells you" about the surface. Values of $$\approx$$ 2 are common.
@@ -37,8 +37,8 @@ This value can be very large (10,000 would even work). Where the agreestream pol
 
 If we run through the terrain preprocessing steps once again using the AGREEDEM for the base, we will observe the following watershed:
 
-<a href="/pictures/Reconditioned2.png"><img src="/pictures/Reconditioned2.png"></a>
+<a href="{{ site.url }}/pictures/Reconditioned2.png"><img src="{{ site.url }}/pictures/Reconditioned2.png"></a>
 
 Compare this result to the watershed we got without reconditioning:
 
-<a href="/pictures/Reconditioned3.png"><img src="/pictures/Reconditioned3.png"></a>
+<a href="{{ site.url }}/pictures/Reconditioned3.png"><img src="{{ site.url }}/pictures/Reconditioned3.png"></a>
