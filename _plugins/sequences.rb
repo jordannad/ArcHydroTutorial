@@ -86,7 +86,8 @@ module Jekyll
         end
       end
       if next_page != nil
-        "<a href='#{next_page.url}'><span class='next-link'>Next: #{next_page.data["title"]}</span></a>"
+        base_path = context.registers[:site].config["baseurl"]
+        "<a href='#{base_path}#{next_page.url}'><span class='next-link'>Next: #{next_page.data["title"]}</span></a>"
       else
         ""
       end
