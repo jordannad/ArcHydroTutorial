@@ -12,7 +12,7 @@ The most downstream cells of the stream segments are watershed outlets. Users ca
 
 ##Steps##
 
-1. Go to Terrain Preprocessing &#8594; Stream Segmentation &#8594. Click OK.
+1. Go to Terrain Preprocessing &#8594; Stream Segmentation &#8594; Click OK.
 
 <a href="{{ site.url }}/pictures/StreamSegment2.png"><img src="{{ site.url }}/pictures/StreamSegment2.png"></a>
 

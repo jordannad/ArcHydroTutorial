@@ -9,13 +9,14 @@ Streams are defined based on the number of grid cells draining into an area. Rec
 accumulation. 
 
 The streams that are 'defined' in this section are not necessarily meaningful or representative of existing streams. In fact, any other value of threshold can be selected. A smaller threshold will result in denser stream network and usually in a greater number of delineated 
-catchments. For this exercise, it is a good idea to compare your stream definition raster to your topographic map.
+catchments. *It is a good idea to compare your stream definition raster to your topographic map.*
 
+In the following illustration we have a stream threshold of >2 grid cells.
 <a href="{{ site.url }}/pictures/StreamDefinition.png"><img src="{{ site.url }}/pictures/StreamDefinition.png"></a>
 
 ##Steps##
 
-1. Go to Terrain Preprocessing &#8594; Stream Definition &#8594. Accept the default Stream Threshold values and click OK.
+1. Go to Terrain Preprocessing &#8594; Stream Definition &#8594; Accept the default Stream Threshold values and click OK.
 
 <a href="{{ site.url }}/pictures/StreamDefinition2.png"><img src="{{ site.url }}/pictures/StreamDefinition2.png"></a>
 

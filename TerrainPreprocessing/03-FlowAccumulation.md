@@ -5,15 +5,15 @@ title: Flow Accumulation
 
 ## Background ##
 
-Flow accumulation is a measure of the drainage area in units of grid cells. The cell itself is not included in the count. 
+Flow accumulation is a measure of the drainage area in units of grid cells. The cell itself is not included in the count. Cells with higher flow accumulation values should be located in areas of lower elevation, such as in valleys or drainage channels.
 
 <a href="{{ site.url }}/pictures/FlowAccumulation.png"><img src="{{ site.url }}/pictures/FlowAccumulation.png"></a>
 
-For example, 
+*Can you identify the 7 grid cells draining into the circled cell in the figure above?*
 
 ##Steps##
 
-1. Go to Terrain Preprocessing &#8594; Flow Accumulation &#8594. Click OK
+1. Go to Terrain Preprocessing &#8594; Flow Accumulation &#8594; Click OK
 
 <a href="{{ site.url }}/pictures/FlowAccumulation2.png"><img src="{{ site.url }}/pictures/FlowAccumulation2.png"></a>
 

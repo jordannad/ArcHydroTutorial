@@ -10,7 +10,7 @@ The Catchment Grid Delineation Tool delineates a subbasin for every stream segme
 
 ##Steps##
 
-1. Go to Terrain Preprocessing &#8594; Catchment Grid Delineation &#8594. Click OK.
+1. Go to Terrain Preprocessing &#8594; Catchment Grid Delineation &#8594; Click OK.
 
 <a href="{{ site.url }}/pictures/CatGridDelineation2.png"><img src="{{ site.url }}/pictures/CatGridDelineation2.png"></a>
 
