@@ -3,7 +3,7 @@ layout: collection
 title: Watershed Outlet Point
 ---
 
-We are interested in determining the catchment defined by a specific point, so it is important to know how to turn lat-long data collected with a GPS or from a map into a shapefile in GIS.  In this section you will create a point shapefile of the watershed outlet.  se the appropriate watershed outlet for your catchment as given in the assignment.
+We are interested in determining the catchment defined by a specific point, so it is important to know how to turn lat-long data collected with a GPS or from a map into a shapefile in GIS.  In this section you will create a point shapefile of the watershed outlet. **Use the appropriate watershed outlet for your catchment as given in the assignment.**
 
 1. Open an Excel Spreadsheet.  In Cell A1 write “Longitude.”  In Cell B1 write “Latitude.”  Don’t write the words “Long” and “Lat,” because “long” is a reserved database word.  In Cell A2 write the longitude of the watershed outlet in *decimal degrees*.  In Cell B2 write the latitude of the watershed outlet in decimal degrees.  Save the file as “Outlet.”
     <a href="{{ site.url }}/pictures/SS18.png"><img src="{{ site.url }}/pictures/SS18.png"></a>

@@ -23,7 +23,8 @@ A hypsometric curve is a cumulative distribution function of watershed elevation
 
         <a href="{{ site.url }}/pictures/HypsometricCurve3.png"><img src="{{ site.url }}/pictures/HypsometricCurve3.png"></a>
 
-
+    - Open the attribute table.
+    
 2. Export the table. Open the .dbf file in Excel (change file type to dBASE). The VALUE column indicates the elevation value. The COUNT column indicates the number of cells with that elevation value.
 
     <a href="{{ site.url }}/pictures/HypsometricCurve4.png"><img src="{{ site.url }}/pictures/HypsometricCurve4.png"></a>

@@ -46,3 +46,4 @@ Recall that the catchment relief is the difference between the maximum and minim
 11. Multi-select all the clipped layers as well as the watershed polygon by holding down the CTRL key and clicking on the layer names. Drag and drop them into the new Data Frame.  Right click on the new Data Frame. Click Activate. 
 
     <a href="{{ site.url }}/pictures/Relief4.png"><img src="{{ site.url }}/pictures/Relief5.png"></a>
+

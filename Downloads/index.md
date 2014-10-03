@@ -9,8 +9,8 @@ Note: After downloading your project files, pay special attention to their locat
 
 [Hatchet Mountain Pass Files]({{ site.url }}/Downloads/Hatchet.zip)
 
-[Assignment 3 GIS Characterization]({{ site.url }}/Downloads/GISCharacterization2013.pdf)
+[Assignment 3 GIS Characterization]({{ site.url }}/Downloads/GISCharacterization2014.pdf)
 
 [Tutorial Starter Documents]({{ site.url }}/Downloads/BigBasin.zip) (Big Basin USGS Topo)
 
-You may want to take a look at [Assignment 1]({{ site.url }}/Downloads/Assignment1_WatershedDelineation.pdf) to refresh your memory about watershed characterization.
+You may want to take a look at [Assignment 1]({{ site.url }}/Downloads/Assignment1_WatershedDelineation.pdf) to refresh your memory about manual watershed delineation.
